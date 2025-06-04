@@ -12,9 +12,6 @@ namespace OminousBlueCircleAtTheCentreOfTheWorld {
             Instance = this;
             // If you can clean up what the plugin leaves behind manually, please do not unload the plugin when disabling.
             base.DisablingShouldUnloadPlugin = false;
-#if DEBUG
-           // base.WaitForDebuggerToBeAttached();
-#endif
         }
 
         protected override void OnLoaded() {
@@ -22,12 +19,9 @@ namespace OminousBlueCircleAtTheCentreOfTheWorld {
             Onix.Events.Common.WorldRender += OnWorldRender;
         }
 
-        protected override void OnEnabled() {}
-        protected override void OnDisabled() {}
-
         protected override void OnUnloaded() {
             // Ensure every task or thread is stopped when this function returns.
-            // You can give them base.PluginEjectionCancellationToken which will be cancelled when this function returns. 
+            // You can give them base.PluginEjectionCancellationToken which will be cancelled when this function returns.
             Console.WriteLine($"Plugin {CurrentPluginManifest.Name} unloaded!");
             Onix.Events.Common.WorldRender -= OnWorldRender;
         }
