@@ -1,0 +1,13 @@
+{
+  "uuid": "92c9565b-8e8e-4a56-a17e-211abce949da",
+  "plugin_name": "OminousBlueCircleAtTheCentreOfTheWorld",
+  "plugin_author": "Tom",
+  "plugin_description": "If you've ever wanted to have an Ominous Blue Circle At The Centre Of The World",
+  "plugin_version": "1.0.0",
+  "game_version": "1.21.82",
+  "supported_game_version_ranges": [
+    "0.0.0-9.99.9"
+  ],
+  "runtime_version": 1,
+  "target_assembly": "OminousBlueCircleAtTheCentreOfTheWorld.dll"
+}

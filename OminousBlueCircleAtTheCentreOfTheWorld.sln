@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OminousBlueCircleAtTheCentreOfTheWorld", "OminousBlueCircleAtTheCentreOfTheWorld/OminousBlueCircleAtTheCentreOfTheWorld.csproj", "{D901F1DA-71E3-4A1D-A0DC-F649D04CE509}"
+EndProject
+Global
+    GlobalSection(SolutionConfigurationPlatforms) = preSolution
+        Debug|x64 = Debug|x64
+        Release|x64 = Release|x64
+    EndGlobalSection
+    GlobalSection(ProjectConfigurationPlatforms) = postSolution
+        {D901F1DA-71E3-4A1D-A0DC-F649D04CE509}.Debug|x64.ActiveCfg = Debug|x64
+        {D901F1DA-71E3-4A1D-A0DC-F649D04CE509}.Debug|x64.Build.0 = Debug|x64
+        {D901F1DA-71E3-4A1D-A0DC-F649D04CE509}.Release|x64.ActiveCfg = Release|x64
+        {D901F1DA-71E3-4A1D-A0DC-F649D04CE509}.Release|x64.Build.0 = Release|x64
+    EndGlobalSection
+    GlobalSection(SolutionProperties) = preSolution
+        HideSolutionNode = FALSE
+    EndGlobalSection
+    GlobalSection(ExtensibilityGlobals) = postSolution
+        SolutionGuid = {79B4C321-C657-4365-8B9A-E80E9AA60C53}
+    EndGlobalSection
+EndGlobal
